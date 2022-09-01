@@ -1,5 +1,4 @@
 # binary to decimal
-
 def binary_to_decimal(binary_number_input):
     binary = binary_number_input
     decimal = 0
@@ -9,6 +8,11 @@ def binary_to_decimal(binary_number_input):
     return decimal
 
 
+# decimal to binary conversion
 def decimal_to_binary(decimal_number):
     return bin(decimal_number)
 
+
+# decimal to hex
+def decimal_to_hex(decimal_number):
+    return hex(decimal_number)
