@@ -13,6 +13,7 @@
 #
 # print(numbers)
 
+
 # ^^^^ working prototype
 
 
@@ -29,4 +30,8 @@
 # result = int(binary, 2)
 # print(result)
 
-#
+# Test for stats
+import stats
+
+l = input("Please enter the list of numbers: ")
+stats.list(l)
