@@ -1,16 +1,8 @@
-#
-numberList = []
+# Returns mean, median, mode, and range
+def medMeanModeRange(list):
 
-print("Please enter your list and type 'stop' when done")
+# Calculate Median
+    listLength = len(list)
 
-while True:
-    try:
-        userInput = float(input())
-        numberList.append(userInput)
 
-#breaks out of the loop while whenever any letter is typed
-    except:
-        break
-
-print(numberList)
-
+    return "Mean: " + sum(list) / len(list) + "\nMedian: " +
